@@ -1,0 +1,17 @@
+
+[1mFrom:[0m /home/apolichenco/Development/code/phase-3/phase-3-ruby-oo-self-cash-register-lab/lib/cash_register.rb:17 CashRegister#add_item:
+
+    [1;34m13[0m: [32mdef[0m [1;34madd_item[0m(item, price, quantity = [1;34m0[0m)
+    [1;34m14[0m:     [32mif[0m (quantity > [1;34m0[0m)
+    [1;34m15[0m:         timesed = quantity * price
+    [1;34m16[0m:         @total += timesed
+ => [1;34m17[0m:         binding.pry
+    [1;34m18[0m:         quantity.times {[1;36mself[0m.item_list.push(item)}
+    [1;34m19[0m:         @last_item = item
+    [1;34m20[0m:         @last_price = timesed
+    [1;34m21[0m:     [32melse[0m 
+    [1;34m22[0m:         @total += price
+    [1;34m23[0m:         [1;36mself[0m.item_list.push(item)
+    [1;34m24[0m:     [32mend[0m
+    [1;34m25[0m: [32mend[0m
+
